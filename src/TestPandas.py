@@ -1,4 +1,5 @@
 def add_numbers(x, y):
     return x + y
 
-add_numbers(1, 2)
+a=add_numbers(1, 2)
+print(a)
