@@ -1,5 +1,7 @@
-def add_numbers(x, y):
-    return x + y
+import pandas as pd
+with open("v4test.csv", 'r') as csvfile:
+    df = pd.read_csv(csvfile)
+    print(df)
 
-a=add_numbers(1, 2)
-print(a)
+
+
